@@ -1,0 +1,171 @@
+*,
+::after,
+::before {
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  margin-top: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Gayathri", sans-serif;
+  color: rgb(250, 147, 109);
+}
+
+/* MAIN PHOONE SCREEN */
+
+
+/* PHOTO */
+.photoBox {
+  width: 230px;
+  height: 230px;
+  margin: 40px auto 15px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 12px solid rgba(240, 197, 178, 0.645);
+  background-color: rgb(254, 238, 231);
+  background-image: url(https://cdn.pastemagazine.com/www/system/images/photo_albums/the-40-best-album-covers-of-2017/large/tylercreator.jpg?1384968217);
+  background-repeat: no-repeat;
+  background-size: 320px 270px;
+  background-position: -14px -14px;
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(189, 125, 97, 0.453);
+  -moz-box-shadow: 0px 0px 20px 7px rgba(189, 125, 97, 0.453);
+  box-shadow: 8px 8px 15px 2px rgba(193, 180, 174, 0.8);
+}
+
+/* SONG AND ARTIST NAME */
+.nowPlaying {
+  margin-top: 60px;
+}
+.songName {
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+.artistName {
+  font-weight: 300;
+  margin-top: -4px;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: rgba(255, 68, 0, 0.316);
+  border-radius: 6px;
+}
+.progress {
+  background-color: rgba(255, 68, 0, 0.823) !important;
+  width: 45%;
+  border-radius: 6px;
+}
+
+/* BUTTONS */
+
+.button-group-top{
+padding-top:30px;
+}
+
+.button-group-bottom {
+  margin-top: 60px;
+}
+.button-group-top > button {
+  width: 40px;
+  height: 40px;
+  margin: 20px 45px !important;
+}
+.button-group-top > button:last-child {
+  margin-right: -35px !important;
+}
+.button-group-top > button:first-child {
+  margin-left: -35px !important;
+}
+
+.button-group-top > p {
+  display: inline-block !important;
+  width: 40%;
+  font-size: 18px;
+}
+button {
+  margin: 10px !important;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50% !important;
+  background: transparent;
+  -webkit-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  -moz-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  border: none;
+}
+
+button:hover {
+  background: rgba(255, 68, 0, 0.316);
+}
+
+.svg-inline--fa {
+  vertical-align: middle;
+  color: rgba(255, 68, 0, 0.582);
+}
+
+/* SONG LIST */
+.song-list-top {
+  padding-top: 30px;
+}
+.songPlay {
+  padding: 5px;
+  background: transparent;
+  -webkit-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  -moz-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  height: 80px;
+  border-radius: 20px;
+  margin: 0 10px;
+  display: flex;
+}
+.songPlay > .play-pause > .play {
+  /* -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75); */
+
+  background: transparent;
+  -webkit-box-shadow: inset 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  -moz-box-shadow: inset 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  box-shadow: inset 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
+  border: none;
+}
+.songs {
+  margin-top: 20px;
+}
+.song {
+  padding: 5px;
+  /* background-color:rgba(255, 68, 0, 0.316); */
+  height: 80px;
+  border-radius: 20px;
+  margin: 0 10px;
+  display: flex;
+}
+.song > .songName {
+  margin-top: 20px;
+  width: 60%;
+}
+.play-pause {
+  width: 40%;
+  display: inline-flexbox;
+}
+.play {
+  float: right;
+}
+.song > .songName > h6 {
+  float: left;
+  letter-spacing: 0px;
+  padding-left: 5px;
+}
+.album-photo > .photoBox {
+  width: 150px;
+  height: 150px;
+  background-size: 200px 200px;
+  background-position: -14px -14px;
+  margin: 10px;
+}
